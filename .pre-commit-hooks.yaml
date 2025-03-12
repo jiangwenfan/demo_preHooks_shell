@@ -1,0 +1,13 @@
+- id: check-a
+  name: check-a hook脚本
+  description: 执行 check_aa.sh 脚本
+  language: script
+  entry: scripts/check_aa.sh
+  types: [file]
+
+- id: check-b
+  name: check-b hook脚本
+  description: 执行 check_aa.sh 脚本
+  language: script
+  entry: scripts/check_aa.sh
+  types: [file]
